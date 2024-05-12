@@ -89,6 +89,8 @@ This Chrome extension tracks the time spent on different websites and sends the 
 2. The dashboard will display the time spent on each website in a list format.
 3. The extension will automatically send tab data to the server every 5 seconds.
 
+**##Demo Video Link: https://drive.google.com/file/d/1PUwWsmU3u1w3GUBoZmIbaAjpej-CFlU0/view?usp=sharing
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
