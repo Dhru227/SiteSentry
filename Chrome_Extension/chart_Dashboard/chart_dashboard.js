@@ -12,7 +12,7 @@ function fetchData(){
 
         // console.log(tabData)
         // Send tab data to the server
-        fetch("http://127.0.0.1:3000/get_all_web_data", {
+        fetch("https://sentry.aerial-ace.tech/get_all_web_data", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

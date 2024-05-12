@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Function to handle login
   function login(username, password) {
     // Make an HTTP request to your backend server to authenticate the user
-    fetch('http://127.0.0.1:3000/login', {
+    fetch('https://sentry.aerial-ace.tech/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

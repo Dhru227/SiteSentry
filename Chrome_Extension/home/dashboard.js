@@ -227,7 +227,7 @@ function sendTabDataToServer(timeList) {
           time: formatDuration(duration) // Add the current time
         };
         // Send tab data to the server
-        fetch("http://127.0.0.1:3000/save_web_data", {
+        fetch("https://sentry.aerial-ace.tech/save_web_data", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

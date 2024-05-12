@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
 // Define the URL of your Rails signup endpoint
-const url = "http://127.0.0.1:3000/signup"; // Update the URL with your actual endpoint
+const url = "https://sentry.aerial-ace.tech/signup"; // Update the URL with your actual endpoint
 
 // Make a POST request to the signup endpoint
 fetch(url, {
